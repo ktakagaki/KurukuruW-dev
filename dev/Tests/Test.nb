@@ -1,0 +1,12 @@
+BeginTestSection["General"]
+
+Get["KurukuruW`"]
+
+VerificationTest[(* 1 *)
+	{CircularWrap[1]}
+	,
+	{1},
+	TestID -> "CircularWrap"	
+]
+
+EndTestSection[]
